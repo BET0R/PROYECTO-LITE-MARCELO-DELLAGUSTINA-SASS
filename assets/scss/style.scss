@@ -1,8 +1,14 @@
-@import './global/header';
-@import './global/main';
-@import './global/footer';
-@import './index/index';
-@import './faq/faq';
-@import './showcase/showcase';
-@import './mod/mod';
-@import './donation/donation';
+// MISC
+@import './misc/normalize';
+
+// PARTIALS
+@import './partials/header';
+@import './partials/main';
+@import './partials/footer';
+
+// VIEWS
+@import './views/index';
+@import './views/faq';
+@import './views/showcase';
+@import './views/mod';
+@import './views/donation';

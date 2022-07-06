@@ -3,21 +3,6 @@
 	font-family: 'Azonix';
 	src: url(../font/Azonix.otf);
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	&::after {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
-	&::before {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
-}
 html {
 	scroll-behavior: smooth;
 }
